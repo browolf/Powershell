@@ -1,3 +1,6 @@
+#This script takes an existing file containing passwords and makes a new file with different passwords
+
+
 #timestamp function
 filter timestamp {"$(get-date -Format G): $_"}
 #get script name
