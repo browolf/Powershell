@@ -1,3 +1,5 @@
+#this script takes the file created by generate-passwords and changes the pupil passwords in active directory
+
 #timestamp function
 filter timestamp {"$(get-date -Format G): $_"}
 
