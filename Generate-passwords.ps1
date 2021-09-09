@@ -31,12 +31,6 @@ foreach ($pupil in $csv){
     $ani = Get-Random -InputObject $animals
     $password = "1" + $col + $ani
 
-    #secure password format
-    #$secure = ConvertTo-SecureString -String $password -AsPlainText -Force
-
-    #temp variable for computer class
-    #$cclass="temp"
-
     #write output file containing passwords
     $error.clear()
     try {
