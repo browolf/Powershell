@@ -1,3 +1,5 @@
+#Looks for user accounts the no password allowed and changes it
+
 #timestamp function 
 filter timestamp {"$(get-date -Format G): $_"} 
 #get script name 
