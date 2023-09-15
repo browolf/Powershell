@@ -1,3 +1,6 @@
+#inputformat
+#firstname, Surname, Admission_number, computer class or form
+
 $thisyear = "2022"
 $inputf = "sims$($thisyear).csv"
 $output = "$($thisyear).csv"
