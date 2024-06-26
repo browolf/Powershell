@@ -1,5 +1,5 @@
 #This script finds users that have a proxy adress with SMTP (capitals) instead of lowercase. 
-#A mistake now corrected in the user creation script caused this. 
+#A mistake the user creation script caused this. 
 #SMTP causes the proxy address to become their primary email address in Office365
 #the list wasn't that long so I manually fixed the users. 
 
