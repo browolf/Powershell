@@ -2,6 +2,7 @@
 #A mistake the user creation script caused this. 
 #SMTP causes the proxy address to become their primary email address in Office365
 #the list wasn't that long so I manually fixed the users. 
+#by some fortunate quirk when you remove the email, it goes back in the add textbox so you can just change SMTP to smtp and add back. 
 
 # Import the Active Directory module
 Import-Module ActiveDirectory
